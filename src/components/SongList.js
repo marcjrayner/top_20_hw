@@ -7,9 +7,10 @@ const SongList = ({songs}) => {
     const songNodes = songs.map( song => {
         return(
             <SongDetail 
-            artist={song["im:artist"].label}
+            // artist={song["im:artist"].label}
             title={song.title.label}
             imageUrl={song["im:image"][2].label}
+            audioUrl={song.link[1].attributes.href}
             ></SongDetail>
         )
     })
