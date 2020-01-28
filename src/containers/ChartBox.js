@@ -34,6 +34,7 @@ class ChartBox extends Component{
     render(){
         return(
           <div className="chart-box">
+            <h1 color="white">UK TOP 20</h1>
             <SongList songs = {this.state.songs}></SongList>
           </div>
         )

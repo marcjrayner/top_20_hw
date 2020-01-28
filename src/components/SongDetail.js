@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './SongDetail.css'
 
  const SongDetail = ({artist,title,imageUrl,audioUrl}) => {
 
